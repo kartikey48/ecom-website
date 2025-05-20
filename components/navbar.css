@@ -1,0 +1,24 @@
+/* navbar.css */
+
+.nav-link {
+    color: #4a5568; /* Dark gray */
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #2d3748; /* Slightly darker gray */
+  }
+  
+  .nav-link-mobile {
+    color: #4a5568; /* Dark gray */
+    text-decoration: none;
+    padding: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link-mobile:hover {
+    background-color: #e2e8f0; /* Light gray background */
+    color: #2d3748; /* Slightly darker gray */
+  }
